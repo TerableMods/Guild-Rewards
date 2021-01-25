@@ -1,0 +1,15 @@
+{
+    "files": {
+        "C_GET_GUILD_QUEST_WEEKLY_REWARD.1.def": "97a5d1b08eec37b68596ec83afbfc3ab046902df72fe1f5a89a79ba9209582d7",
+        "S_GUILD_QUEST_LIST.2.def": "cb59651dc1d32450a964d5b2bcc56b6998e969030b12e7d92b97d8bcd62579d8",
+        "README.md": "96a57a79efafe2c66d85cb89da732faab8ca8377777de1bfa5e7eaca94997f9d",
+        "index.js": "4159574d36c7e27c15ed3d43525777fad0530d15a12712a3cd37e1db166d42cd",
+        "module.json": "08e7299e255051504b3b3869e86a9843781c441941647562c742696d0fa02930"
+    },
+    "defs": {
+        "C_REQUEST_GUILD_INFO": 1,
+        "C_GET_GUILD_QUEST_WEEKLY_REWARD": 1,
+        "S_GUILD_INFO": 1,
+        "S_GUILD_QUEST_LIST": 2
+    }
+}

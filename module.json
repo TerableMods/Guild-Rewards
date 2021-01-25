@@ -1,0 +1,13 @@
+{
+    "disableAutoUpdate": false,
+    "name": "Guild Rewards",
+    "author": "TerableMods",
+	"description": "Claims all available guild reward boxes using a chat command",
+	"options": {
+        "niceName": "Guild Rewards",
+        "guiName": "Guild Rewards",
+        "reloadable": true
+    },
+    "servers": ["https://raw.githubusercontent.com/TerableMods/Guild-Rewards/master/"],
+    "supportUrl": "https://github.com/TerableMods/Guild-Rewards/issues"
+}

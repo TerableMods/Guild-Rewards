@@ -1,0 +1,61 @@
+ref quests
+ref valderonRewards
+ref guildName
+ref guildMaster
+
+int32  guildId
+int32  guildMasterId
+int32  guildLevel
+int64  guildXp
+int64  maxGuildXp
+int64  guildFunds
+int32  characters
+int32  accounts
+int32  size
+int64  creationDate
+int32  valderonTokens
+int32  maxValderonTokens
+bool   isValderonTrial
+string guildName
+string guildMaster
+
+array  quests
+- ref targets
+- ref unk2
+- ref rewards
+- ref name
+- ref description
+- ref guildName
+
+- int32  questId
+- int32  targetList # determines how to display name and description strings
+- int32  valderonTokens
+- int32  size       # 2 if rally
+- int32  totalTime     # in minutes
+- int32  status        # 0 = not taken, 1 = in progress, 2 = completed
+- int32  timeRemaining # in seconds
+- int32  type          # 0 = other, 1 = boss, 2 = bg, 3 = gather, 4 = rally
+- int32  type2
+- bool   active
+- string name
+- string description
+- string guildName
+
+- array  targets
+- - int32 huntingZoneId
+- - int32 templateId
+- - int32 progress
+- - int32 maxProgress
+
+- array  unk2 # currently completely unknown
+- - byte unk  # placeholder to ensure array is populated if there are items
+
+- array  rewards
+- - int32 id
+- - int64 amount
+
+array valderonRewards
+- int32 index
+- int32 requiredValderonToken
+- bool  completed
+- bool  received
